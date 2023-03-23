@@ -1,0 +1,11 @@
+jQuery(document).ready(function(){
+    $(".main").mouseover(function(){
+        $(this).find(".sub").stop().slideDown()
+    }).mouseout(function(){
+        $(this).find(".sub").stop().slideUp()
+    }).mouseover(function(){
+        $(".bgmenu").stop().slideDown()
+    }).mouseout(function(){
+        $(".bgmenu").stop().slideUp()
+    })
+})
