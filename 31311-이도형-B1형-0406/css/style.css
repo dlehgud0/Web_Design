@@ -50,6 +50,7 @@ footer{
     height: 100px;
     float: right;
     position: relative;
+    z-index: 1;
 }
 
 .main{
@@ -95,6 +96,23 @@ footer{
 .imgslide{
     width: 1200px;
     height: 300px;
+    overflow: hidden;
+}
+
+.imgslide2{
+    width: 3600px;
+    height: 300px;
+}
+
+.imgslide2 li{
+    float: left;
+    position: relative;
+}
+
+.imgtext{
+    font-size: 20px;
+    color: #fff;
+    position: absolute;
 }
 
 .content{
